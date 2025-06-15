@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+}
+
+.card {
+    background-color: rgb(156, 199, 199);
+    width: 500px;
+    padding: 30px;
+    margin-top: 100px;
+    margin-left: 400px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 4px 3px;
+    justify-content: center;
+}
+
+.card-1 {
+    background-color: rgb(156, 199, 199);
+    width: 500px;
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 4px 3px;
+    justify-content: center;
+}
+
+.element {
+    display: grid;
+    text-align: start;
+    gap: 5px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.button {
+    background-color: rgb(219, 217, 212);
+    color: black;
+    border-radius: 3px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.button:hover {
+    background-color: rgb(160, 158, 154);
+    cursor: pointer;
+}
+
+.input {
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+input:focus {
+    border: 3px solid orange;
+}
+
+.header {
+    background-color: rgb(224, 220, 220);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img {
+    width: 200px;
+}
+
+.img2 {
+    width: 200px;
+}
+
+.article {
+    font-size: 20px;
+}
+
+.article2 {
+    font-size: 30px;
+}
+
+.nav {
+  display: grid;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .nav {
+    display: flex;
+  }
+}
+
+.video {
+    margin-left: 300px;
+}
+
+.footer {
+    background-color: rgb(224, 220, 220);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
